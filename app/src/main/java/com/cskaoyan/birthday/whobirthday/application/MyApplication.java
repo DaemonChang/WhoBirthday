@@ -13,6 +13,12 @@ public class MyApplication extends Application {
 
     public static  SharedPreferences.Editor editor;
 
+    /**
+     * password 是本软件的应用锁
+     *
+     * userpassword 是当前账户密码
+     */
+
     @Override
     public void onCreate() {
         super.onCreate();

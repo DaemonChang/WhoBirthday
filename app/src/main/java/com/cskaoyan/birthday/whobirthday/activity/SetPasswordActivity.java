@@ -29,9 +29,11 @@ public class SetPasswordActivity extends AppCompatActivity implements View.OnCli
         et_setpwd_confirm = (EditText) findViewById(R.id.et_setpwd_confirm);
 
 
-
         btn_setpwd_cpnfirm.setOnClickListener(this);
 
+        /**
+         * 修改密码以后，要同步到云端的账号
+         */
 
 
     }
